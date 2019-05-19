@@ -1,0 +1,116 @@
+/*
+* Erin Kelleher
+* Due Date
+* Saving the Rhinos
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body attributes here */
+/* background color */
+body {
+    background-color: ghostwhite;
+}
+/* formatting of the top header of the page */
+header { 
+    border-bottom: 5px dashed darkgray;
+    padding-bottom: 10px;
+    font-family: fantasy;
+    text-align: center;
+}
+h1 {
+    color: darkgray;
+}
+
+h2 {
+    padding: 10px;
+    color: darkgray;
+}
+p {
+    padding: 10px;
+}
+/* formatting of the middle part of the page */
+main {
+    font-family: fantasy
+}
+/* formatting of the bottom part of the page */
+footer {
+     font-family: fantasy;
+     padding-top: 10px;
+     border-top: 5px dashed darkgray;
+}
+/* formatting of the picture on the top left */
+#pic1 { 
+    float: left; 
+    width: 150px; 
+    height: 110px; 
+    padding: 1px; 
+    border: 3px dotted darkgray; 
+    margin: 5px;
+}
+/* formatting of the pictures in the row in the middle */
+#pic2 { 
+    float: left; 
+    width: 200px; 
+    height: 150px; 
+    padding: 1px; 
+    border: 3px dotted darkgray; 
+    margin: 5px;
+}
+#pic3 { 
+    float: left; 
+    width: 200px; 
+    height: 150px; 
+    padding: 1px; 
+    border: 3px dotted darkgray;
+    margin: 5px;
+}
+#pic4 { 
+    float: left; 
+    width: 200px; 
+    height: 150px; 
+    padding: 1px; 
+    border: 3px dotted darkgray;
+    margin: 5px;
+}
+#pic5 { 
+    float: left; 
+    width: 200px; 
+    height: 150px; 
+    padding: 1px; 
+    border: 3px dotted darkgray;
+    margin: 5px;
+}
+#pic6 { 
+    float: left; 
+    width: 200px; 
+    height: 150px; 
+    padding: 1px; 
+    border: 3px dotted darkgray;
+    margin: 5px;
+}
+/* formatting of the picture on the bottom right*/
+#pic7 { 
+    float: right; 
+    width: 150px; 
+    height: 100px; 
+    padding: 1px; 
+    border: 3px dotted darkgray;
+    margin: 5px;
+}
+.nofloat { 
+    clear: both; 
+}
+/*changing the color of the links when you hover over it */
+a:hover, a:focus { 
+    color: darkgray; font-size: 100%; 
+}
+/* to put dots next to the links*/
+ul, li {
+    list-style-position: inside;
+}
